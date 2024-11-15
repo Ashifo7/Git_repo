@@ -14,7 +14,7 @@ const Content = () => {
           <li key={item.id}>
             <input type="checkbox" checked={item.checked} readOnly />
             <label>{item.item}</label>
-            <button>Delete</button>
+            <button>Delet</button>
           </li>
         ))}
       </ul>
